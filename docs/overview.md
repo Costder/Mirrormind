@@ -1,9 +1,16 @@
-# Overview of the Mirrormind Research Project
+# Overview
 
-The Mirrormind Research Project explores innovative approaches to cognitive enhancement using advanced technologies. Our primary objectives include:
+Mirrormind studies behavioral divergence in language models.
 
-1. **Understanding Cognitive Function**: Investigating the underlying mechanisms of human cognition.
-2. **Enhancing Mental Capabilities**: Developing tools and methods to boost memory, focus, and learning.
-3. **Ethical Considerations**: Evaluating the ethical implications of cognitive enhancement technologies.
+The plain-language question is simple: if you fine-tune a model toward a different worldview, do you change what it actually does, or only how it sounds while doing it?
 
-This project aims to bridge the gap between neuroscience and technology, ensuring responsible development and deployment of cognitive enhancement methods.
+This matters because people often read style as evidence of alignment. A model that sounds polite, cautious, or severe may still make the same underlying choices as a baseline model. The reverse is also possible: a model may preserve familiar phrasing while its decision tendencies shift in more meaningful ways.
+
+Mirrormind approaches this as a comparison problem:
+
+- start with a shared reference model
+- create controlled variants with distinct behavioral pressures
+- evaluate those variants on the same tasks
+- separate rhetorical style from action-relevant behavior
+
+The project is designed to support clearer thinking about model consistency, controllability, and evaluation rather than to produce a public-facing chatbot.
